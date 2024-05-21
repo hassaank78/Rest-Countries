@@ -28,6 +28,7 @@ if (cardContainer !== null) {
     .then(res => res.json())
     .then(data => {
       countriesData = data;
+      
       renderCountries(countriesData);
     })
     .catch(error => {

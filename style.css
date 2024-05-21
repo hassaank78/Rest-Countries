@@ -134,7 +134,7 @@ input:-webkit-autofill:focus
   margin-top: 3rem;
   flex-wrap: wrap;
   gap: 3.1rem;
-  justify-content: center;
+  justify-content: start;
 
 }
 
